@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-26T11:21:32 IST" name="Suite" finished-at="2024-03-26T11:25:14 IST" duration-ms="222082">
+    <groups>
+    </groups>
+    <test started-at="2024-03-26T11:21:32 IST" name="Test" finished-at="2024-03-26T11:25:14 IST" duration-ms="222082">
+      <class name="test_Cases.TS_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:21:34 IST" name="setup" finished-at="2024-03-26T11:21:58 IST" duration-ms="24603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="set()[pri:0, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:21:59 IST" name="set" finished-at="2024-03-26T11:21:59 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="LoginClick()[pri:1, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:21:59 IST" name="LoginClick" finished-at="2024-03-26T11:22:04 IST" duration-ms="5134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginClick -->
+        <test-method is-config="true" signature="set()[pri:0, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:05 IST" name="set" finished-at="2024-03-26T11:22:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="InvalidLogin()[pri:2, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:05 IST" name="InvalidLogin" finished-at="2024-03-26T11:22:11 IST" depends-on-methods="test_Cases.TS_Login.LoginClick" duration-ms="5853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="set()[pri:0, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:11 IST" name="set" finished-at="2024-03-26T11:22:11 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="Error_Navigate()[pri:3, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:11 IST" name="Error_Navigate" finished-at="2024-03-26T11:22:18 IST" depends-on-methods="test_Cases.TS_Login.InvalidLogin" duration-ms="6762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Error_Navigate -->
+        <test-method is-config="true" signature="set()[pri:0, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:19 IST" name="set" finished-at="2024-03-26T11:22:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="LoginClickNew()[pri:4, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:19 IST" name="LoginClickNew" finished-at="2024-03-26T11:22:22 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginClickNew -->
+        <test-method is-config="true" signature="set()[pri:0, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:23 IST" name="set" finished-at="2024-03-26T11:22:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="ValidLogin()[pri:5, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:23 IST" name="ValidLogin" finished-at="2024-03-26T11:22:32 IST" depends-on-methods="test_Cases.TS_Login.LoginClickNew" duration-ms="9594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_Cases.TS_Login@48075da3]" started-at="2024-03-26T11:22:34 IST" name="tearDown" finished-at="2024-03-26T11:22:40 IST" duration-ms="6106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_Cases.TS_Login -->
+      <class name="test_Cases.TS_2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:28 IST" name="setup" finished-at="2024-03-26T11:23:45 IST" duration-ms="16429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="set2()[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:45 IST" name="set2" finished-at="2024-03-26T11:23:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set2 -->
+        <test-method signature="Popup_Handling()[pri:1, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:45 IST" name="Popup_Handling" finished-at="2024-03-26T11:23:52 IST" duration-ms="7135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Popup_Handling -->
+        <test-method is-config="true" signature="set2()[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:53 IST" name="set2" finished-at="2024-03-26T11:23:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set2 -->
+        <test-method signature="hover_price()[pri:2, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:53 IST" name="hover_price" finished-at="2024-03-26T11:23:56 IST" duration-ms="2865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hover_price -->
+        <test-method is-config="true" signature="set2()[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:56 IST" name="set2" finished-at="2024-03-26T11:23:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set2 -->
+        <test-method signature="Storage_Stock()[pri:3, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:56 IST" name="Storage_Stock" finished-at="2024-03-26T11:23:57 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Storage_Stock -->
+        <test-method is-config="true" signature="set2()[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:58 IST" name="set2" finished-at="2024-03-26T11:23:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set2 -->
+        <test-method signature="select_Home_dkr()[pri:4, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:23:58 IST" name="select_Home_dkr" finished-at="2024-03-26T11:24:10 IST" duration-ms="12745" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='filters_brand_name_By_The_Home_Dekor'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58267/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a77086d7cba3f361432f969f612445f5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='filters_brand_name_By_The_Home_Dekor'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58267/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a77086d7cba3f361432f969f612445f5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pageObjects.Home_Page.Home(Home_Page.java:133)
+at test_Cases.TS_2.select_Home_dkr(TS_2.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Home_dkr -->
+        <test-method is-config="true" signature="set2()[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:24:11 IST" name="set2" finished-at="2024-03-26T11:24:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set2 -->
+        <test-method signature="Print_Book2()[pri:5, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:24:11 IST" name="Print_Book2" finished-at="2024-03-26T11:24:13 IST" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Print_Book2 -->
+        <test-method is-config="true" signature="set2()[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:24:14 IST" name="set2" finished-at="2024-03-26T11:24:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set2 -->
+        <test-method signature="print_collection()[pri:6, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:24:14 IST" name="print_collection" finished-at="2024-03-26T11:24:17 IST" duration-ms="3193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_collection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_Cases.TS_2@16eb3ea3]" started-at="2024-03-26T11:24:17 IST" name="tearDown" finished-at="2024-03-26T11:24:23 IST" duration-ms="6119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_Cases.TS_2 -->
+      <class name="test_Cases.TS_3">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:24:23 IST" name="setup" finished-at="2024-03-26T11:24:41 IST" duration-ms="18033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="set3()[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:24:41 IST" name="set3" finished-at="2024-03-26T11:24:42 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set3 -->
+        <test-method signature="click_gift_card()[pri:1, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:24:42 IST" name="click_gift_card" finished-at="2024-03-26T11:24:57 IST" duration-ms="15687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_gift_card -->
+        <test-method is-config="true" signature="set3()[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:24:58 IST" name="set3" finished-at="2024-03-26T11:24:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set3 -->
+        <test-method signature="click_bNa()[pri:2, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:24:58 IST" name="click_bNa" finished-at="2024-03-26T11:24:59 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_bNa -->
+        <test-method is-config="true" signature="set3()[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:24:59 IST" name="set3" finished-at="2024-03-26T11:24:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set3 -->
+        <test-method signature="gift_info()[pri:3, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:24:59 IST" name="gift_info" finished-at="2024-03-26T11:25:04 IST" duration-ms="4395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gift_info -->
+        <test-method is-config="true" signature="set3()[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:25:04 IST" name="set3" finished-at="2024-03-26T11:25:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set3 -->
+        <test-method signature="recipient_info()[pri:4, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:25:04 IST" name="recipient_info" finished-at="2024-03-26T11:25:06 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipient_info -->
+        <test-method is-config="true" signature="set3()[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:25:06 IST" name="set3" finished-at="2024-03-26T11:25:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set3 -->
+        <test-method signature="senders_info()[pri:5, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:25:06 IST" name="senders_info" finished-at="2024-03-26T11:25:08 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senders_info -->
+        <test-method is-config="true" signature="set3()[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:25:08 IST" name="set3" finished-at="2024-03-26T11:25:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set3 -->
+        <test-method signature="error_info()[pri:6, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:25:08 IST" name="error_info" finished-at="2024-03-26T11:25:08 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- error_info -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_Cases.TS_3@273444fe]" started-at="2024-03-26T11:25:08 IST" name="tearDown" finished-at="2024-03-26T11:25:14 IST" duration-ms="5847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_Cases.TS_3 -->
+      <class name="test_Cases.TS_1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:22:40 IST" name="setup" finished-at="2024-03-26T11:23:03 IST" duration-ms="23824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="set1()[pri:0, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:03 IST" name="set1" finished-at="2024-03-26T11:23:04 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set1 -->
+        <test-method signature="Handle_Popup()[pri:1, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:04 IST" name="Handle_Popup" finished-at="2024-03-26T11:23:10 IST" duration-ms="6488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Popup -->
+        <test-method is-config="true" signature="set1()[pri:0, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:11 IST" name="set1" finished-at="2024-03-26T11:23:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set1 -->
+        <test-method signature="Price_Setting()[pri:3, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:11 IST" name="Price_Setting" finished-at="2024-03-26T11:23:14 IST" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Price_Setting -->
+        <test-method is-config="true" signature="set1()[pri:0, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:15 IST" name="set1" finished-at="2024-03-26T11:23:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set1 -->
+        <test-method signature="Storage_Stock()[pri:5, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:15 IST" name="Storage_Stock" finished-at="2024-03-26T11:23:16 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Storage_Stock -->
+        <test-method is-config="true" signature="set1()[pri:0, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:17 IST" name="set1" finished-at="2024-03-26T11:23:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set1 -->
+        <test-method signature="BookShelve()[pri:8, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:17 IST" name="BookShelve" finished-at="2024-03-26T11:23:22 IST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookShelve -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_Cases.TS_1@413d1baf]" started-at="2024-03-26T11:23:23 IST" name="tearDown" finished-at="2024-03-26T11:23:28 IST" duration-ms="5714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_Cases.TS_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

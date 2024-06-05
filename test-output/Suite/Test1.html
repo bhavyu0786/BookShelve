@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 20 16:10:18 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>205 seconds (205225 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_Cases.TS_Login.Login_Btnn()'><b>Login_Btnn</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>1</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_2.Pop2()'><b>Pop2</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.EmailWrite()'><b>EmailWrite</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>2</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_3.error_info()'><b>error_info</b><br>Test class: test_Cases.TS_3</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_3@c430e6c</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.Passnew()'><b>Passnew</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_2.hover_storage()'><b>hover_storage</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_1.Pop()'><b>Pop</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_1.Sli()'><b>Sli</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>6</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_2.clickBook_shelves()'><b>clickBook_shelves</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>7</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.LoginClicknew()'><b>LoginClicknew</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>1</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_2.select_Home_dkr()'><b>select_Home_dkr</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>2</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_1.Stk()'><b>Stk</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_1.Sto()'><b>Sto</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.Loginnew()'><b>Loginnew</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>1</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_1.Books()'><b>Books</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>4</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_2.Print_Book2()'><b>Print_Book2</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>8</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_2.select_stock()'><b>select_stock</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_1.Hov()'><b>Hov</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_3.click_bNa()'><b>click_bNa</b><br>Test class: test_Cases.TS_3</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_3@c430e6c</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.Login()'><b>Login</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>2</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_2.hover_price()'><b>hover_price</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>6</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_3.click_gift_card()'><b>click_gift_card</b><br>Test class: test_Cases.TS_3</td>
+<td></td>
+<td>6</td>
+<td>test_Cases.TS_3@c430e6c</td></tr>
+<tr>
+<td title='test_Cases.TS_3.gift_info()'><b>gift_info</b><br>Test class: test_Cases.TS_3</td>
+<td></td>
+<td>1</td>
+<td>test_Cases.TS_3@c430e6c</td></tr>
+<tr>
+<td title='test_Cases.TS_3.recipient_info()'><b>recipient_info</b><br>Test class: test_Cases.TS_3</td>
+<td></td>
+<td>1</td>
+<td>test_Cases.TS_3@c430e6c</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.loginnew()'><b>loginnew</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>2</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.Emailnew1()'><b>Emailnew1</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>2</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_1.Pri()'><b>Pri</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_2.print_collection()'><b>print_collection</b><br>Test class: test_Cases.TS_2</td>
+<td></td>
+<td>9</td>
+<td>test_Cases.TS_2@4d0d9fe7</td></tr>
+<tr>
+<td title='test_Cases.TS_1.PrintBook_1()'><b>PrintBook_1</b><br>Test class: test_Cases.TS_1</td>
+<td></td>
+<td>9</td>
+<td>test_Cases.TS_1@4a8355dd</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.LoginClick()'><b>LoginClick</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>1</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.Error()'><b>Error</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>8</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+<tr>
+<td title='test_Cases.TS_3.senders_info()'><b>senders_info</b><br>Test class: test_Cases.TS_3</td>
+<td></td>
+<td>1</td>
+<td>test_Cases.TS_3@c430e6c</td></tr>
+<tr>
+<td title='test_Cases.TS_Login.Passwrd()'><b>Passwrd</b><br>Test class: test_Cases.TS_Login</td>
+<td></td>
+<td>0</td>
+<td>test_Cases.TS_Login@4c163e3</td></tr>
+</table><p>
+</body>
+</html>

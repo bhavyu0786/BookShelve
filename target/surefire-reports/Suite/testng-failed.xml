@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test_Cases.TS_2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="set2"/>
+          <include name="setup"/>
+          <include name="Print_Book2"/>
+        </methods>
+      </class> <!-- test_Cases.TS_2 -->
+      <class name="test_Cases.TS_1">
+        <methods>
+          <include name="set1"/>
+          <include name="tearDown"/>
+          <include name="BookShelve"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test_Cases.TS_1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
